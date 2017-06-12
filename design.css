@@ -1,0 +1,62 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+body
+{
+    background: #fff6cc;
+    text-align: center;
+}
+
+canvas
+{
+    background-size: 100% 100%;
+    background-image: url("http://sr.photos2.fotosearch.com/bthumb/UNC/UNC304/u10494504.jpg");
+    -webkit-transition: -webkit-transform 1s;
+}
+
+canvas:hover
+{
+    opacity: 0.5;
+    background-color: rgba(0, 169, 255, 0.2);
+    background-blend-mode: multiply;
+}
+
+#canvasDiv
+{
+    margin: 150px auto 40px;
+}
+
+#reloadButton
+{
+    border: 1px solid #000;
+    border-width: 2px;
+    padding: 5px;
+    text-decoration: none;
+    color:black;
+    font-family: "Courier";
+    font-weight: bold;
+    font-size: 20px;
+    -webkit-transition: font-size 0.1s;
+
+}
+
+#reloadButton:hover
+{
+    font-size: 24px;
+    background: #f7eaaa;
+}
+
+#whoseturn
+{
+    font-size: 40px;
+    font-family: "Courier";
+    font-weight:bold;
+    color: black;
+    border: 1px solid #000;
+    border-width: 2px;
+    width: 150px;
+    margin: 150px auto 10px;
+}
